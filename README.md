@@ -20,12 +20,12 @@ This is a really simple example on how to use a Lambda function to call Rundeck 
 
 This function will be invoked everytime an event occurs in a S3 bucket. In this example, a json containing the bucket name and the object key will be sent in a POST request.
 
-## Getting Started
+### Getting Started
 
 - Compile the app using `GOOS=linux`
 - [Deploy it](https://docs.aws.amazon.com/lambda/latest/dg/deploying-lambda-apps.html).
 - The app needs `RUNDECK_JOB_URL` environment variable, set the webhook URL as its value.
 
-## Wanna contribute?
+### Wanna contribute?
 
 I'm not a Go dev and still learning it. If you wish to contribute, fix something or add some new feature, feel free to open a Pull Request or an issue. :)
